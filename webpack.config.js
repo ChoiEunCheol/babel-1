@@ -14,4 +14,9 @@ module.exports = {
         },
       ],
     },
+    plugins: [
+      new HtmlWebpackPlugin({
+        template: "./src/index.html", // 사용할 템플릿 HTML 파일 경로
+      }),
+    ],
   };
