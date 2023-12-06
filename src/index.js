@@ -1,2 +1,6 @@
-const message = 'Hello, Babel!';
-console.log(message);
+class Greeting {
+    message = 'Hello, Babel!';
+  }
+  
+  const greeting = new Greeting();
+  console.log(greeting.message);
